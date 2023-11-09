@@ -1,0 +1,241 @@
+:root{
+    --loko-fotsy: #FFFFFF;
+    --rose-fotsy: #F2CEF2;
+    --loko-violet: #9E91B7;
+    --rose-violet: #DF99F2;
+    --manga-violet: #3D2DA6;
+    --loko-manga: #07338C;
+    --manga-mainty: #021740;
+}
+
+@font-face {
+    font-family: "Byeno";
+    src: url(../Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(../Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url(../Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: "Wakanda-forever";
+    src: url(../Fonts/WakandaForever-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
+    background: radial-gradient(to right, rgba(67, 67, 128, 0.651) , rgba(1, 1, 48, 0.527) , rgb(81, 81, 190)) ;
+}
+
+/*Header*/
+
+.letieee a img{
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: -23px;
+    background: none;
+}
+
+.awe{
+    font-family: "Byeno";
+    font-size: 20px;
+    font-weight: 50;
+    margin-left: 800px;
+    padding-top: 30px;
+    background: none;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: var(--loko-fotsy);
+    background: none;
+}
+
+.list-item a:hover{
+    color: var(--loko-violet);
+    text-decoration: underline;
+}
+
+/*Réseaux sociaux scroll tsisy miala*/
+
+.tsisy-miala a{
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    left: 50px;
+    top: 350px;
+    background-color: none;
+}
+
+.tsisy-miala a img{
+    padding: 10px 0; 
+}
+
+/*Fametahana tsipika roa tsisy miala*/
+
+.tsipika-lava{
+    content: "";
+    border-left: 3px solid var(--loko-violet);
+    position: fixed;
+    top: 0;
+    width: 1px;
+    height: 83%;
+    left: 40px;
+}
+
+.tsipika-fohy{
+    content: "";
+    border-left: 3px solid var(--loko-violet);
+    position: fixed;
+    top: 0;
+    width: 1px;
+    height: 60%;
+    left: 60px;
+}
+
+/*Grand titre BLACK PANTHER Wakanda Forever*/
+
+.textg h1{
+    font-family: "Panthera";
+    font-size: 68px;
+    color: var(--loko-violet);
+    margin-bottom: 10px;
+}
+
+.textg h2{
+    font-family: "Byeno";
+    font-size: 32px;
+    color: var(--loko-violet);
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.textg p{
+    font-family: "Cantarell";
+    font-size: 16px;
+    color: var(--loko-fotsy);
+    margin-bottom: 10px;
+}
+
+.tepoka{
+    color: var(--loko-fotsy);
+    font-family: "Cantarell";
+    font-size: 16px;
+}
+
+.titre-be{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: -200px;
+    width: 100%;
+}
+
+#titre-be{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#titre-be img{
+    background: none;
+    width: 60%;
+    height: 80%;
+    margin-left: 100px;
+}
+
+/*Kidabo Rastah sy Sola dia Sipakely iray*/
+
+.kidabo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 0px;
+    background-image: none;
+}
+
+.tepoka{
+    color: var(--loko-fotsy);
+    font-family: "Cantarell";
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.rastah, .sola, .sipakely{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+
+.kidabo h2{
+    font-family: "Byeno";
+    font-size: 32px;
+    color: var(--loko-violet);
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.kidabo p{
+    font-family: "Cantarell";
+    font-size: 14px;
+    color: var(--loko-fotsy);
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.rastah img{
+    width: 250px;
+    height: 300px;
+}
+
+.sola img{
+    width: 180px;
+    height: 230px;
+}
+
+.sipakely img{
+    width: 130px;
+    height: 230px;
+}
+
+.kily{
+    background-color: var(--loko-manga);
+    height: 230px;
+}
+
+.odoye{
+    background-color: var(--loko-manga);
+    height: 230px;
+}
+
+.flesy{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.flesy p{
+    margin: 0;
+}
