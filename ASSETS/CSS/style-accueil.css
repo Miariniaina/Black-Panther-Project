@@ -167,6 +167,7 @@
     text-align: center;
     margin-left: 100px;
     margin-right: 0px;
+    margin-bottom: 100px;
     background-image: none;
 }
 
@@ -217,6 +218,27 @@
     height: 230px;
 }
 
+.sipakely{
+    position: relative;
+    display: inline-block;
+}
+
+.flesy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
 .kily{
     background-color: var(--loko-manga);
     height: 230px;
@@ -227,15 +249,92 @@
     height: 230px;
 }
 
-.flesy{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
+/*Mapifanitsy soratra sy sary bobaka be*/
+
+.soratra-sary{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-bottom: 100px;
 }
 
-.flesy p{
-    margin: 0;
+.mickey{
+    margin-right: 50px;
+    width: 60%;
+}
+
+.mickey h2{
+    font-family: "Byeno";
+    font-size: 32px;
+    color: var(--loko-violet);
+    margin-bottom: 25px;
+}
+
+.mickey p{
+    font-family: "Cantarell";
+    font-size: 16px;
+    color: var(--loko-fotsy);
+    margin-top: 30px;
+}
+
+.mickey ul li{
+    font-family: "Cantarell";
+    font-size: 14px;
+    color: var(--loko-fotsy);
+    list-style: none;
+}
+
+.toetra{
+    margin-top: 30px;
+}
+
+.protector{
+    margin-top: 30px;
+}
+
+/*.bandy{
+    margin-bottom: 75px;
+    align-items: center;
+    list-style: none;
+}*/
+
+.bandy img{
+    width: 60%;
+    margin-left: 100px;
+}
+
+.bandy .tena{
+    font-family: "Cantarell";
+    font-size: 20px;
+    margin-left: 210px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.resaka ul li{
+    list-style: none;
+    font-family: "Cantarell";
+    font-size: 14px;
+    background-color: var(--manga-violet);
+    color: var(--loko-fotsy);
+}
+
+.resaka{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#panavotra{
+    margin-top: 650px;
+    height: 100%;
+}
+
+/*Contact*/
+
+.contact{
+    background-image: url(../Illustrations+Logo/Accueil/Pantherhome7.png);
+    
 }
