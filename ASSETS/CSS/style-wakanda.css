@@ -69,3 +69,190 @@
 
 /*Sorabe-WAKANDA FOREVER l vo miditra*/
 
+.sorabe h1{
+    font-family: "Byeno";
+    font-size: 43px;
+    color: var(--loko-violet);
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.sorabe h2{
+    font-family: "Wakanda-forever";
+    font-size: 32px;
+    color: var(--loko-violet);
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.sorabe p{
+    font-family: "Cantarell";
+    font-size: 16px;
+    color: var(--loko-fotsy);
+    margin-bottom: 10px;
+}
+
+#sorabe {
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
+    position: relative;
+}
+
+.gisa {
+    position: relative;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sorabe {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+    width: 40%;
+}
+
+.gisa img {
+    position: relative;
+    z-index: 0;
+    width: 1300px;
+    height: 100%;
+}
+
+/*Origine Kolotsaina Guerre*/
+
+.voay{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -100px;
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png), url(../Illustrations+Logo/Wakanda/Pantherwakanda2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vangy h2{
+    font-family: "Byeno";
+    font-size: 32px;
+    color: var(--loko-violet);
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 250px;
+}
+
+.vangy p{
+    font-family: "Cantarell";
+    font-size: 14px;
+    color: var(--loko-fotsy);
+    margin-bottom: 30px;
+}
+
+.maso h2{
+    font-family: "Byeno";
+    font-size: 32px;
+    color: var(--loko-violet);
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.maso p{
+    font-family: "Cantarell";
+    font-size: 14px;
+    color: var(--loko-fotsy);
+    margin-bottom: 30px;
+}
+
+.kolotsaina{
+    margin-top: 250px;
+}
+
+#kolotsaina h2{
+    margin-bottom: 40px;
+}
+
+#gera h2{
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.vangy{
+    margin-right: 30px;
+    margin-left: 75px;
+}
+
+.maso{
+    margin-right: 10000px;
+    margin-left: 30px;
+    width: 550px;
+}
+
+#diveo{
+    margin-top: 90px;
+}
+
+#miaramila h2{
+    margin-top: 90px;
+}
+
+#fikambanana{
+    margin-top: 110px;
+    height: 450px;
+}
+
+#tsiaro h2{
+    margin-bottom: 40px;
+}
+
+#tsiaro{
+    margin-bottom: 150px;
+}
+
+/* Footer */
+
+#vody{
+    background-image: url(../Illustrations+Logo/All+pages/back_footer.png);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 500px;
+    align-items: center;
+}
+
+.tapany-ambany{
+    position: relative;
+    display: inline-block;
+}
+
+.tapany-ambany img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 350px;
+    transform: translate(-50%, -50%);
+}
+
+.foutrage{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    width: 200px;
+}
+
+.kaskatoto{
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 300px;
+    z-index: 0;
+}
+
+.kotakta{
+    display: flex;
+    justify-content: space-between;
+    
+}
