@@ -251,8 +251,68 @@
     z-index: 0;
 }
 
-.kotakta{
+
+.helena{
     display: flex;
     justify-content: space-between;
-    
+    text-align: center;
+    align-items: center;
+}
+
+.politika{
+    color: var(--loko-fotsy);
+    font-family: "Cantarell";
+    font-size: 10px;
+    margin-top: 75px;
+    margin-right: 350px;
+}
+
+.pah{
+    color: var(--loko-fotsy);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 75px;
+    text-align: left;
+}
+
+.pah h3{
+    font-family: "Cantarell";
+    font-size: 22px;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.pah a{
+    color: var(--loko-fotsy);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: "Cantarell";
+    font-size: 14px;
+}
+
+.rohy h3{
+    font-family: "Cantarell";
+    font-size: 22px;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    color: var(--loko-fotsy);
+    margin-right: 100px;
+    margin-top: 75px;
+}
+
+.reseau-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.reseau-foot img{
+    margin-right: 50px;
+}
+
+.reseau-foot img:hover{
+    zoom: 110%;
 }

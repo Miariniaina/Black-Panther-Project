@@ -32,8 +32,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
-    background: radial-gradient(to right, rgba(67, 67, 128, 0.651) , rgba(1, 1, 48, 0.527) , rgb(81, 81, 190)) ;
 }
 
 /*Header*/
@@ -63,6 +61,10 @@
 .list-item a:hover{
     color: var(--loko-violet);
     text-decoration: underline;
+}
+
+.pejy{
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
 }
 
 /*Réseaux sociaux scroll tsisy miala*/
@@ -100,7 +102,7 @@
     position: fixed;
     top: 0;
     width: 1px;
-    height: 60%;
+    height: 55%;
     left: 60px;
 }
 
@@ -149,6 +151,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
 }
 
 #titre-be img{
@@ -160,6 +163,10 @@
 
 /*Kidabo Rastah sy Sola dia Sipakely iray*/
 
+#kidabo{
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
+}
+
 .kidabo{
     display: flex;
     justify-content: space-between;
@@ -167,7 +174,6 @@
     text-align: center;
     margin-left: 100px;
     margin-right: 0px;
-    margin-bottom: 100px;
     background-image: none;
 }
 
@@ -254,15 +260,14 @@
 .soratra-sary{
     display: flex;
     justify-content: space-between;
-    position: relative;
-    margin-left: 100px;
-    margin-right: 70px;
-    margin-bottom: 100px;
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
 }
 
 .mickey{
+    margin-top: 100px;
+    margin-left: 100px;
     margin-right: 50px;
-    width: 60%;
+    margin-bottom: 100px;
 }
 
 .mickey h2{
@@ -294,35 +299,62 @@
     margin-top: 30px;
 }
 
+.alika{
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 100px;
+    width: 35%;
+}
+
+.bandy{
+    background-color: var(--loko-fotsy);
+    padding-top: -300px;
+    padding-bottom: 100px;
+    margin-left: 20px;
+    border-radius: 2%;
+}
+
 .bandy img{
-    width: 60%;
-    margin-left: 100px;
+    width: 80%;
+    margin-left: 50px;
 }
 
 .bandy .tena{
     font-family: "Cantarell";
     font-size: 20px;
-    margin-left: 210px;
+    margin-left: 190px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.resaka ul li{
-    list-style: none;
-    font-family: "Cantarell";
-    font-size: 14px;
-    background-color: var(--manga-violet);
-    color: var(--loko-fotsy);
-}
-
-.resaka{
+.bandy .resaka{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    color: var(--loko-fotsy);
+    margin-bottom: 40px;
+}
+
+.bandy .resaka p{
+    background-color: var(--manga-violet);
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.bio p{
+    margin-left: 55px;
+    margin-bottom: 20px;
+    font-family: "Cantarell";
+    font-size: 14px;
 }
 
 #panavotra{
-    margin-top: 650px;
+    margin-top: 300px;
     height: 100%;
 }
 
@@ -331,4 +363,107 @@
 .contact{
     background-image: url(../Illustrations+Logo/Accueil/Pantherhome7.png);
     
+}
+
+/* Footer */
+
+#vody{
+    background-image: url(../Illustrations+Logo/All+pages/back_footer.png);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 500px;
+    align-items: center;
+}
+
+.tapany-ambany{
+    position: relative;
+    display: inline-block;
+}
+
+.tapany-ambany img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 350px;
+    transform: translate(-50%, -50%);
+}
+
+.foutrage{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    width: 200px;
+}
+
+.kaskatoto{
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 300px;
+    z-index: 0;
+}
+
+
+.helena{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.politika{
+    color: var(--loko-fotsy);
+    font-family: "Cantarell";
+    font-size: 10px;
+    margin-top: 75px;
+    margin-right: 350px;
+}
+
+.pah{
+    color: var(--loko-fotsy);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 75px;
+    text-align: left;
+}
+
+.pah h3{
+    font-family: "Cantarell";
+    font-size: 22px;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.pah a{
+    color: var(--loko-fotsy);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: "Cantarell";
+    font-size: 14px;
+}
+
+.rohy h3{
+    font-family: "Cantarell";
+    font-size: 22px;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    color: var(--loko-fotsy);
+    margin-right: 100px;
+    margin-top: 75px;
+}
+
+.reseau-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.reseau-foot img{
+    margin-right: 50px;
+}
+
+.reseau-foot img:hover{
+    zoom: 110%;
 }
