@@ -360,9 +360,84 @@
 
 /*Contact*/
 
-.contact{
+.phone{
     background-image: url(../Illustrations+Logo/Accueil/Pantherhome7.png);
-    
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--loko-fotsy);
+    opacity: 0.7;
+    border-radius: 120px;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+}
+
+.contact .uir{
+    font-family: "Cantarell";
+    font-size: 14px;
+}
+
+.contact .fifandraisana{
+    font-family: "Cantarell";
+    font-size: 43px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.tsontsin input{
+    width: 500px;
+    height: 56px;
+    border-radius: 38px;
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    font-family: "Cantarell";
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.hafatra textarea{
+    width: 500px;
+    height: 175px;
+    border-radius: 38px;
+    margin-bottom: 15px;
+}
+
+.hafatra textarea[placeholder="Message"] {
+    font-family: "Cantarell";
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.asina input{
+    width: 175px;
+    height: 54px;
+    border-radius: 38px;
+    background-color: var(--rose-violet);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Cantarell";
+    font-size: 14px;
+}
+
+.asina :hover{
+    box-shadow: #021740;
+    filter: blur(20px);
+    overflow-x: 0;
+    overflow-y: 0;
 }
 
 /* Footer */
@@ -371,9 +446,10 @@
     background-image: url(../Illustrations+Logo/All+pages/back_footer.png);
     display: flex;
     justify-content: space-between;
-    position: relative;
-    height: 500px;
+    height: 600px;
     align-items: center;
+    /*z-index: 0;*/
+    /*margin-top: 100px;*/
 }
 
 .tapany-ambany{

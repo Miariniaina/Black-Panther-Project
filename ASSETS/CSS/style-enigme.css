@@ -36,14 +36,14 @@
 
 /*Header*/
 
-.tsy-letieee a img{
+.louloux a img{
     margin-left: 150px;
     margin-bottom: 20px;
     margin-top: -23px;
     background: none;
 }
 
-.awewe{
+.wawa{
     font-family: "Byeno";
     font-size: 20px;
     font-weight: 50;
@@ -63,6 +63,113 @@
     text-decoration: underline;
 }
 
-.lohabe{
+.soso{
     background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
+}
+
+
+
+
+
+/* Footer */
+
+#vody{
+    background-image: url(../Illustrations+Logo/All+pages/back_footer.png);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 500px;
+    align-items: center;
+}
+
+.tapany-ambany{
+    position: relative;
+    display: inline-block;
+}
+
+.tapany-ambany img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 350px;
+    transform: translate(-50%, -50%);
+}
+
+.foutrage{
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    width: 200px;
+}
+
+.kaskatoto{
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 300px;
+    z-index: 0;
+}
+
+
+.helena{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.politika{
+    color: var(--loko-fotsy);
+    font-family: "Cantarell";
+    font-size: 10px;
+    margin-top: 75px;
+    margin-right: 350px;
+}
+
+.pah{
+    color: var(--loko-fotsy);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 75px;
+    text-align: left;
+}
+
+.pah h3{
+    font-family: "Cantarell";
+    font-size: 22px;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.pah a{
+    color: var(--loko-fotsy);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: "Cantarell";
+    font-size: 14px;
+}
+
+.rohy h3{
+    font-family: "Cantarell";
+    font-size: 22px;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    color: var(--loko-fotsy);
+    margin-right: 100px;
+    margin-top: 75px;
+}
+
+.reseau-foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.reseau-foot img{
+    margin-right: 50px;
+}
+
+.reseau-foot img:hover{
+    zoom: 110%;
 }
