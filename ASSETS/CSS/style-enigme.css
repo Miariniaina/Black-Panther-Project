@@ -67,9 +67,93 @@
     background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
 }
 
+/* Presentement misy soldat sola be */
 
+.presentement h1{
+    font-family: "Byeno";
+    font-size: 32px;
+    color: var(--loko-violet);
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-top: 50px;
+    text-align: left;
+    word-spacing: 5px;
+}
 
+.presentement p{
+    font-family: "Cantarell";
+    font-size: 14px;
+    color: var(--loko-fotsy);
+    margin-bottom: 10px;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;   
+}
 
+.borilava{
+    background-image: url(../Illustrations+Logo/Enigme/Pantherenigme2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#presentement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
+    margin-top: -100px;
+}
+
+#presentement img{
+    background: none;
+    width: 55%;
+    height: 100%;
+}
+
+.presentement img{
+    margin-top: 80px;
+}
+
+/*Teny tsy fatatra*/
+
+#kti-kta-kdo{
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
+}
+
+.kti-kta-kdo{
+    font-family: "Wakanda-forever";
+    font-size: 43px;
+    color: var(--loko-violet);
+    margin-right: 400px;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*zavatra roa sy telo milahatra*/
+
+.andry{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../Illustrations+Logo/All+pages/arrière_plan.png);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.libre{
+    font-family: "Cantarell";
+    font-size: 14px;
+    color: var(--loko-fotsy);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image: url(../Illustrations+Logo/Enigme/Pantherenigme2.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    
+}
 
 /* Footer */
 
