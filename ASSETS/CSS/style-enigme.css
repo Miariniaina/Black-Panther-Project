@@ -151,8 +151,76 @@
     background-image: url(../Illustrations+Logo/Enigme/Pantherenigme2.png);
     background-size: cover;
     background-position: center;
+    margin-top: 150px;
+}
+
+.bolo{
     margin-top: 100px;
-    
+}
+
+#abidi p{
+    font-family: "Cantarell";
+    font-size: 16px;
+    color: var(--loko-fotsy);
+}
+
+#abidi span{
+    font-family: "Wakanda-forever";
+    font-size: 16px;
+    color: var(--loko-fotsy);
+}
+
+#abidi{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+#alors{
+    margin-left: 100px;
+}
+
+#alors p{
+    font-family: "Cantarell";
+    font-size: 16px;
+    color: var(--loko-fotsy);
+    margin-bottom: 20px;
+}
+
+#alors .reps input{
+    width: 500px;
+    height: 56px;
+    border-radius: 38px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border-color: var(--loko-violet);
+    margin-bottom: 50px;
+}
+
+::placeholder {
+    font-family: "Cantarell";
+    font-size: 14px;
+    padding-left: 10px;
+    color: var(--loko-violet);
+}
+
+.alefaso input{
+    width: 175px;
+    height: 54px;
+    border-radius: 38px;
+    background-color: var(--rose-violet);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Cantarell";
+    font-size: 14px;
+    margin-left: 150px;
+}
+
+.alefaso :hover{
+    box-shadow: #021740;
+    filter: blur(1px);
+    overflow-x: 0;
+    overflow-y: 0;
 }
 
 /* Footer */

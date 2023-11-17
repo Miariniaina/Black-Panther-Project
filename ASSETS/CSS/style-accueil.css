@@ -435,7 +435,7 @@
 
 .asina :hover{
     box-shadow: #021740;
-    filter: blur(20px);
+    filter: blur(1px);
     overflow-x: 0;
     overflow-y: 0;
 }
